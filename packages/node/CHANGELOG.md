@@ -76,6 +76,80 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 
 
+# 0.1.0 (2022-12-08)
+
+### Dependency Updates
+
+* `utils` updated to version `1.0.0`
+
+### Bug Fixes
+
+*  increase chunk corrolation plugin scope ([#386](https://github.com/module-federation/nextjs-mf/issues/386)) ([ba567c3](https://github.com/module-federation/nextjs-mf/commit/ba567c37ec9d1b1aa9f457f8e9b4152ed5747e81))
+*  try catch on chunk flushing ([#388](https://github.com/module-federation/nextjs-mf/issues/388)) ([71cc898](https://github.com/module-federation/nextjs-mf/commit/71cc8984a2e6e0b26957d782dcb517d0c7fdc566))
+* add missing reject to promise new promise ([#319](https://github.com/module-federation/nextjs-mf/issues/319)) ([550a71a](https://github.com/module-federation/nextjs-mf/commit/550a71a2043f97fb5aae0e9fed5a63023db17b11))
+* fix node plugin fs augments when outside next child compiler ([#284](https://github.com/module-federation/nextjs-mf/issues/284)) ([dfa99c8](https://github.com/module-federation/nextjs-mf/commit/dfa99c86fdd8d73091764532d52be5f81b89a508))
+* Fix peer deps ([#342](https://github.com/module-federation/nextjs-mf/issues/342)) ([aa4ad00](https://github.com/module-federation/nextjs-mf/commit/aa4ad00615f4121bca4c2b2011bb6f0acc811919))
+* hot-reload not working when node-fetch is imported from require() ([#352](https://github.com/module-federation/nextjs-mf/issues/352)) ([74c35e6](https://github.com/module-federation/nextjs-mf/commit/74c35e6cf41fe69af6c17c44885663d46e9a1fbf))
+* improve handling of offline remotes ([#263](https://github.com/module-federation/nextjs-mf/issues/263)) ([e0eb437](https://github.com/module-federation/nextjs-mf/commit/e0eb437bbc0259a8f263ededa505a397fa59b97b))
+* Improve logic ([#387](https://github.com/module-federation/nextjs-mf/issues/387)) ([0eb7f1b](https://github.com/module-federation/nextjs-mf/commit/0eb7f1bb77ef0a72ad26adeea1b508fbae60656f))
+* **node:** add node-fetch fallback in node hot-reload util ([4817463](https://github.com/module-federation/nextjs-mf/commit/4817463452221ca4835726a6a52f3292175a53b6))
+* **node:** fix path to webpack hmr runtime ([#231](https://github.com/module-federation/nextjs-mf/issues/231)) ([78e5f3c](https://github.com/module-federation/nextjs-mf/commit/78e5f3cefc1d67a6ec5d66b72b8b35408e19cfc2))
+* normalize options private variable on plugin constructors ([#390](https://github.com/module-federation/nextjs-mf/issues/390)) ([5654acd](https://github.com/module-federation/nextjs-mf/commit/5654acdf8e79f0b10f34bb58c6eb09c1b83675cb))
+* reduce stats serialization ([#322](https://github.com/module-federation/nextjs-mf/issues/322)) ([c7ab66d](https://github.com/module-federation/nextjs-mf/commit/c7ab66dce01ac4509f16b0e8f20b43134376f841))
+* stringify error ([a7c20f9](https://github.com/module-federation/nextjs-mf/commit/a7c20f9d989c1f27a0b72b9157fc3243020fd252))
+* support dynamic import of esm modules ([#296](https://github.com/module-federation/nextjs-mf/issues/296)) ([cf28356](https://github.com/module-federation/nextjs-mf/commit/cf28356728354e1f63c0d588035dd115398f8641))
+* **update versions:** bumping versions ([f72209a](https://github.com/module-federation/nextjs-mf/commit/f72209ae070fb50c9d317e764caf872facd4b887))
+* verbose types ([8f21b2a](https://github.com/module-federation/nextjs-mf/commit/8f21b2a4724c64da551fa11e2aad99dcbab75b28))
+
+
+### Features
+
+*  Automatic Async boundary loader ([#330](https://github.com/module-federation/nextjs-mf/issues/330)) ([7e3c08c](https://github.com/module-federation/nextjs-mf/commit/7e3c08cf7835c0407bdce7ed6865b864153074a4))
+* consolidate promise factories in server ([#297](https://github.com/module-federation/nextjs-mf/issues/297)) ([55387ee](https://github.com/module-federation/nextjs-mf/commit/55387eeb952fb3164900d73ddcb0007f644c766f))
+* implement __webpack_require__.l functionality in server builds ([99d1231](https://github.com/module-federation/nextjs-mf/commit/99d12314f68ac526000fa5410a14072a11b260a4))
+* Move Repo to NX ([#154](https://github.com/module-federation/nextjs-mf/issues/154)) ([d2a4dfa](https://github.com/module-federation/nextjs-mf/commit/d2a4dfac7fcdaa2b6a21e3d2973808d01649da61)), closes [#199](https://github.com/module-federation/nextjs-mf/issues/199) [#205](https://github.com/module-federation/nextjs-mf/issues/205) [#144](https://github.com/module-federation/nextjs-mf/issues/144) [#212](https://github.com/module-federation/nextjs-mf/issues/212)
+* **node:** add flag to control logging ([eebab83](https://github.com/module-federation/nextjs-mf/commit/eebab83762a08d82393f04ed03c0af026356653a))
+* support ssr remote entry images ([9ab2afa](https://github.com/module-federation/nextjs-mf/commit/9ab2afaef5115ae6677641cb9d021273dafebf86))
+
+
+
+# 0.1.0 (2022-12-08)
+
+### Dependency Updates
+
+* `utils` updated to version `1.0.0`
+
+### Bug Fixes
+
+*  increase chunk corrolation plugin scope ([#386](https://github.com/module-federation/nextjs-mf/issues/386)) ([ba567c3](https://github.com/module-federation/nextjs-mf/commit/ba567c37ec9d1b1aa9f457f8e9b4152ed5747e81))
+*  try catch on chunk flushing ([#388](https://github.com/module-federation/nextjs-mf/issues/388)) ([71cc898](https://github.com/module-federation/nextjs-mf/commit/71cc8984a2e6e0b26957d782dcb517d0c7fdc566))
+* add missing reject to promise new promise ([#319](https://github.com/module-federation/nextjs-mf/issues/319)) ([550a71a](https://github.com/module-federation/nextjs-mf/commit/550a71a2043f97fb5aae0e9fed5a63023db17b11))
+* fix node plugin fs augments when outside next child compiler ([#284](https://github.com/module-federation/nextjs-mf/issues/284)) ([dfa99c8](https://github.com/module-federation/nextjs-mf/commit/dfa99c86fdd8d73091764532d52be5f81b89a508))
+* Fix peer deps ([#342](https://github.com/module-federation/nextjs-mf/issues/342)) ([aa4ad00](https://github.com/module-federation/nextjs-mf/commit/aa4ad00615f4121bca4c2b2011bb6f0acc811919))
+* hot-reload not working when node-fetch is imported from require() ([#352](https://github.com/module-federation/nextjs-mf/issues/352)) ([74c35e6](https://github.com/module-federation/nextjs-mf/commit/74c35e6cf41fe69af6c17c44885663d46e9a1fbf))
+* improve handling of offline remotes ([#263](https://github.com/module-federation/nextjs-mf/issues/263)) ([e0eb437](https://github.com/module-federation/nextjs-mf/commit/e0eb437bbc0259a8f263ededa505a397fa59b97b))
+* Improve logic ([#387](https://github.com/module-federation/nextjs-mf/issues/387)) ([0eb7f1b](https://github.com/module-federation/nextjs-mf/commit/0eb7f1bb77ef0a72ad26adeea1b508fbae60656f))
+* **node:** add node-fetch fallback in node hot-reload util ([4817463](https://github.com/module-federation/nextjs-mf/commit/4817463452221ca4835726a6a52f3292175a53b6))
+* **node:** fix path to webpack hmr runtime ([#231](https://github.com/module-federation/nextjs-mf/issues/231)) ([78e5f3c](https://github.com/module-federation/nextjs-mf/commit/78e5f3cefc1d67a6ec5d66b72b8b35408e19cfc2))
+* normalize options private variable on plugin constructors ([#390](https://github.com/module-federation/nextjs-mf/issues/390)) ([5654acd](https://github.com/module-federation/nextjs-mf/commit/5654acdf8e79f0b10f34bb58c6eb09c1b83675cb))
+* reduce stats serialization ([#322](https://github.com/module-federation/nextjs-mf/issues/322)) ([c7ab66d](https://github.com/module-federation/nextjs-mf/commit/c7ab66dce01ac4509f16b0e8f20b43134376f841))
+* stringify error ([a7c20f9](https://github.com/module-federation/nextjs-mf/commit/a7c20f9d989c1f27a0b72b9157fc3243020fd252))
+* support dynamic import of esm modules ([#296](https://github.com/module-federation/nextjs-mf/issues/296)) ([cf28356](https://github.com/module-federation/nextjs-mf/commit/cf28356728354e1f63c0d588035dd115398f8641))
+* **update versions:** bumping versions ([f72209a](https://github.com/module-federation/nextjs-mf/commit/f72209ae070fb50c9d317e764caf872facd4b887))
+* verbose types ([8f21b2a](https://github.com/module-federation/nextjs-mf/commit/8f21b2a4724c64da551fa11e2aad99dcbab75b28))
+
+
+### Features
+
+*  Automatic Async boundary loader ([#330](https://github.com/module-federation/nextjs-mf/issues/330)) ([7e3c08c](https://github.com/module-federation/nextjs-mf/commit/7e3c08cf7835c0407bdce7ed6865b864153074a4))
+* consolidate promise factories in server ([#297](https://github.com/module-federation/nextjs-mf/issues/297)) ([55387ee](https://github.com/module-federation/nextjs-mf/commit/55387eeb952fb3164900d73ddcb0007f644c766f))
+* implement __webpack_require__.l functionality in server builds ([99d1231](https://github.com/module-federation/nextjs-mf/commit/99d12314f68ac526000fa5410a14072a11b260a4))
+* Move Repo to NX ([#154](https://github.com/module-federation/nextjs-mf/issues/154)) ([d2a4dfa](https://github.com/module-federation/nextjs-mf/commit/d2a4dfac7fcdaa2b6a21e3d2973808d01649da61)), closes [#199](https://github.com/module-federation/nextjs-mf/issues/199) [#205](https://github.com/module-federation/nextjs-mf/issues/205) [#144](https://github.com/module-federation/nextjs-mf/issues/144) [#212](https://github.com/module-federation/nextjs-mf/issues/212)
+* **node:** add flag to control logging ([eebab83](https://github.com/module-federation/nextjs-mf/commit/eebab83762a08d82393f04ed03c0af026356653a))
+* support ssr remote entry images ([9ab2afa](https://github.com/module-federation/nextjs-mf/commit/9ab2afaef5115ae6677641cb9d021273dafebf86))
+
+
+
 ## [0.9.6](https://github.com/module-federation/nextjs-mf/compare/node-0.9.5...node-0.9.6) (2022-11-22)
 
 
