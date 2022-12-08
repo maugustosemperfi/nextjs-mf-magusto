@@ -2,6 +2,51 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# 0.1.0 (2022-12-08)
+
+### Dependency Updates
+
+* `node` updated to version `0.1.0`
+* `utils` updated to version `1.0.0`
+
+### Bug Fixes
+
+*  improve syntax of loaders ([#389](https://github.com/module-federation/nextjs-mf/issues/389)) ([d7b7910](https://github.com/module-federation/nextjs-mf/commit/d7b79109343e4e39fc1f97cef999cb7620d80081))
+* Better page regex ([#346](https://github.com/module-federation/nextjs-mf/issues/346)) ([b525d3b](https://github.com/module-federation/nextjs-mf/commit/b525d3b579af2ac3a8b502f3c996de8726dbcadd))
+* better page regex for adding loaders ([72fef27](https://github.com/module-federation/nextjs-mf/commit/72fef2792dc39c7605f8b9f8136f5d18a46a3fe5))
+* do not push tags ([ba8a811](https://github.com/module-federation/nextjs-mf/commit/ba8a811592329b78eac0c3d1c9dae07927a804b1))
+* Fix peer deps ([#343](https://github.com/module-federation/nextjs-mf/issues/343)) ([8e7b087](https://github.com/module-federation/nextjs-mf/commit/8e7b0871507911bb81161b9786901877259edaed))
+* flush CSS chunks, cache bust remote entry on render ([#269](https://github.com/module-federation/nextjs-mf/issues/269)) ([85a216a](https://github.com/module-federation/nextjs-mf/commit/85a216a8fd34ae849630ff5b42bacb26c855a9ce))
+* improve handling of offline remotes ([#263](https://github.com/module-federation/nextjs-mf/issues/263)) ([e0eb437](https://github.com/module-federation/nextjs-mf/commit/e0eb437bbc0259a8f263ededa505a397fa59b97b))
+* improve include defaults loader ([#315](https://github.com/module-federation/nextjs-mf/issues/315)) ([f228e49](https://github.com/module-federation/nextjs-mf/commit/f228e49afbbe54950b4187b72aabaef8174d0758))
+* improve loader paths for including defaults ([#338](https://github.com/module-federation/nextjs-mf/issues/338)) ([a99fe97](https://github.com/module-federation/nextjs-mf/commit/a99fe977eeaecce54e5241b42aabd552c52b8129))
+* Improve logic ([#387](https://github.com/module-federation/nextjs-mf/issues/387)) ([0eb7f1b](https://github.com/module-federation/nextjs-mf/commit/0eb7f1bb77ef0a72ad26adeea1b508fbae60656f))
+* include styled-jsx/style in defaults share ([#347](https://github.com/module-federation/nextjs-mf/issues/347)) ([cb0675b](https://github.com/module-federation/nextjs-mf/commit/cb0675be8e3a4fe0ec89ef7f190610392bb16b6d))
+* isolate loader scope to just js files ([#317](https://github.com/module-federation/nextjs-mf/issues/317)) ([ac56950](https://github.com/module-federation/nextjs-mf/commit/ac56950cba8f23fcb58ac83fed29766608aaabc8))
+* next images when debugging locally ([#395](https://github.com/module-federation/nextjs-mf/issues/395)) ([0379baa](https://github.com/module-federation/nextjs-mf/commit/0379baaae14960d0e7c7353e7d2b0aa1a4a02aa4))
+* normalize options private variable on plugin constructors ([#390](https://github.com/module-federation/nextjs-mf/issues/390)) ([5654acd](https://github.com/module-federation/nextjs-mf/commit/5654acdf8e79f0b10f34bb58c6eb09c1b83675cb))
+* reduce stats serialization ([#322](https://github.com/module-federation/nextjs-mf/issues/322)) ([c7ab66d](https://github.com/module-federation/nextjs-mf/commit/c7ab66dce01ac4509f16b0e8f20b43134376f841))
+* revert prettier ([cef32b8](https://github.com/module-federation/nextjs-mf/commit/cef32b82ca124e8d707193ddd70371a009641665))
+* share styled-jsx/style as singleton ([#333](https://github.com/module-federation/nextjs-mf/issues/333)) ([dd2c2d1](https://github.com/module-federation/nextjs-mf/commit/dd2c2d173000e7f89ecc7961255c6a29b769f278))
+* SSR files not getting generated when enabled ([#227](https://github.com/module-federation/nextjs-mf/issues/227)) ([a5f476a](https://github.com/module-federation/nextjs-mf/commit/a5f476aeee2dd42e75ef5f3217791308f1515634)), closes [#226](https://github.com/module-federation/nextjs-mf/issues/226)
+* support images for storages and local debug ([#391](https://github.com/module-federation/nextjs-mf/issues/391)) ([9a72311](https://github.com/module-federation/nextjs-mf/commit/9a72311f18b5b3f1ae0badda3f25bd71cc6c8a3b))
+* support include defaults for windows ([#327](https://github.com/module-federation/nextjs-mf/issues/327)) ([059db4e](https://github.com/module-federation/nextjs-mf/commit/059db4eb604368e14eef464caca6d16463a6d706))
+* update next peer dep to 12.3.0 ([#328](https://github.com/module-federation/nextjs-mf/issues/328)) ([841be9d](https://github.com/module-federation/nextjs-mf/commit/841be9d027b6b33cca27b884f87f27dd7a9bdee5))
+* update version ([70bda37](https://github.com/module-federation/nextjs-mf/commit/70bda37744f55af849bd5c28684f42851bbf7d1f))
+* **update versions:** bumping versions ([f72209a](https://github.com/module-federation/nextjs-mf/commit/f72209ae070fb50c9d317e764caf872facd4b887))
+
+
+### Features
+
+*  Automatic Async boundary loader ([#330](https://github.com/module-federation/nextjs-mf/issues/330)) ([7e3c08c](https://github.com/module-federation/nextjs-mf/commit/7e3c08cf7835c0407bdce7ed6865b864153074a4))
+* consolidate promise factories in server ([#297](https://github.com/module-federation/nextjs-mf/issues/297)) ([55387ee](https://github.com/module-federation/nextjs-mf/commit/55387eeb952fb3164900d73ddcb0007f644c766f))
+* implement __webpack_require__.l functionality in server builds ([99d1231](https://github.com/module-federation/nextjs-mf/commit/99d12314f68ac526000fa5410a14072a11b260a4))
+* Move Repo to NX ([#154](https://github.com/module-federation/nextjs-mf/issues/154)) ([d2a4dfa](https://github.com/module-federation/nextjs-mf/commit/d2a4dfac7fcdaa2b6a21e3d2973808d01649da61)), closes [#199](https://github.com/module-federation/nextjs-mf/issues/199) [#205](https://github.com/module-federation/nextjs-mf/issues/205) [#144](https://github.com/module-federation/nextjs-mf/issues/144) [#212](https://github.com/module-federation/nextjs-mf/issues/212)
+* support ssr remote entry images ([9ab2afa](https://github.com/module-federation/nextjs-mf/commit/9ab2afaef5115ae6677641cb9d021273dafebf86))
+* update the `next` peer dep in nextjs-mf ([#221](https://github.com/module-federation/nextjs-mf/issues/221)) ([d9b1677](https://github.com/module-federation/nextjs-mf/commit/d9b16776b1c4ed61e6c0e0414ed452d7312c1806))
+
+
+
 ## [5.12.10](https://github.com/module-federation/nextjs-mf/compare/nextjs-mf-5.12.9...nextjs-mf-5.12.10) (2022-11-23)
 
 
